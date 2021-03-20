@@ -7,4 +7,4 @@ The simon game is functional and can be ran in the Eclipse IDE. As of now the si
 the same speed no matter how high the score has grown. I plan on adding sound and decreasing the time
 interval between flashes.
 
-
+The Kay's Kakes files are an inprogress project that will eventually go live for a custom cake maker.
