@@ -1,0 +1,143 @@
+:root {
+   --header-color: #B3B3D7;
+   --font-color: #a9a9a9;
+   --bg-color: #f2f0e6;
+   --border: 5px solid #a9a9a9;
+}
+
+body {
+   color: var(--font-color);
+   background-color: var(--bg-color);
+   font-family: Arial, sans-serif;
+}
+
+h1 {
+   color: var(--header-color);
+   font-size: 3rem;
+   font-style: italic;
+   font-variant: small-caps;
+   text-align: center;
+   text-shadow: 1px 1px 2px black, 0 0 25px #a9a9a9, 0 0 5px #a9a9a9;
+ }
+
+h2 {
+   color: var(--header-color);
+   font-size: 2.5rem;
+   font-variant: small-caps;
+   text-align: center;
+}
+
+p {
+   color: var(--header-color);
+   font-size: 16pt;
+   font-style: italic;
+   font-variant: small-caps;
+   text-align: center;
+}
+
+video {
+  /* override other styles to make responsive */
+  width: 75%    !important;
+  height: 1000px   !important;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 25px;
+        display: block;
+        float: center;
+        object-fit: cover;
+        border-radius: 5%;
+}
+
+table {
+        width: 100%;
+}
+
+th img{
+        width: 100%;
+}
+
+address {
+   color: var(--header-color);
+   font-size: 16pt;
+   font-style: italic;
+   text-align: center;
+}
+
+a:link {
+   color: var(--font-color);
+}
+
+a:visited {
+   color: lightpurple;
+}
+
+a:hover {
+   color: skyblue;
+}
+
+a:active {
+   color: lightskyblue;
+}
+
+.nav {
+   text-align: center;
+}
+
+.nav a {
+   text-decoration: none;
+   text-transform: capitalize;
+   text-shadow: 1px 1px 2px black, 0 0 25px #a9a9a9, 0 0 5px #a9a9a9;
+   font-weight: bold;
+   font-size: larger;
+   margin-left: 10px;
+   margin-right: 10px;
+   float: center;
+}
+
+#home ul {
+   float: center;
+}
+
+#home {
+   display: inline-block;
+}
+
+section {
+   margin-top: 50px;
+   margin-left: 20px;
+}
+
+.shadow_cake img {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        float: center;
+        box-shadow: 20px 20px 5px #ccc;
+        width: 70%;
+        height: 70%;
+        object-fit: cover;
+        border-radius: 10%;
+}
+
+img {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        object-fit: cover;
+        border-radius: 5%;
+}
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+td {
+   padding: 10px;
+}
