@@ -1,0 +1,13 @@
+# Canny.C is an edge detection program that employs the canny algorithm.
+# This particular program is hard coded to run on PGM files that are 255 x 255 pixels.
+# I have included a test image in this edge detection folder.
+
+# The program can be compiled with gcc and takes in a number of arguments on the command
+# line to run. It will produce 3 output images as pgm files. The first represents a magnitude image of
+# the edges, the second represents all of the potential pixel peaks, and the third image
+# are the clean edges produced after organizing the peaks into a histogram and only
+# selecting those of a certain threshold.
+
+# The command line arguments are in order: input image, magnitude image destination, sigma variable, peaks image destination,
+# final histogram image destination, histogram threshold value
+# for example: ./canny garb34.pgm image.pgm 1 image2.pgm image3.pgm .05
