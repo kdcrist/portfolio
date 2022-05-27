@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 This is where you can find the source code for my projects.
 
 These are just a few projects I have been developing. Most of them are ongoing projects.
